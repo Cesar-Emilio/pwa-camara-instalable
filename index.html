@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Inspección Visual PWA</title>
+  <title>Inspección Visual PWA · Cesar Emilio Contreras Cortes</title>
+  <meta name="author" content="Cesar Emilio Contreras Cortes">
   <meta name="description" content="Captura de evidencia fotográfica con acceso consciente a cámara.">
 
   <!-- Instalabilidad -->
@@ -21,9 +22,13 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="barra-superior">
-    <h1>Inspección Visual</h1>
-    <button id="btn-instalar" type="button" class="btn btn-secundario" hidden>Instalar App</button>
+  <header class="cabecera">
+    <div class="cabecera-fila">
+      <span class="etiqueta">PWA · Práctica 6.1–6.2</span>
+      <button id="btn-instalar" type="button" class="btn btn-instalar" hidden>Instalar App</button>
+    </div>
+    <h1 class="autor">Cesar Emilio<br>Contreras Cortes</h1>
+    <p class="subtitulo">Inspección Visual — cámara instalable con acceso consciente</p>
   </header>
 
   <main>
@@ -78,7 +83,8 @@
   </main>
 
   <footer class="pie">
-    <span id="modo-visualizacion">Modo: navegador</span>
+    <span class="pie-autor">Cesar Emilio Contreras Cortes</span>
+    <span id="modo-visualizacion" class="etiqueta">Modo: navegador</span>
   </footer>
 
   <script src="./app.js"></script>

@@ -1,5 +1,7 @@
 # PWA Cámara Instalable
 
+**Autor:** Cesar Emilio Contreras Cortes
+
 Práctica de los temas 6.1 y 6.2 de *Desarrollo de Aplicaciones Web Progresivas*: instalabilidad nativa con `manifest.json` y acceso ético a la cámara frontal/trasera con un flujo de Pre-Permiso.
 
 **Demo (GitHub Pages):** https://cesar-emilio.github.io/pwa-camara-instalable/
